@@ -17,6 +17,12 @@ exports.run = async (bot, message) => {
             getStats(args.join(' '), resolve, message)
         }).then(function (playerstats) {
             let player = playerstats[0]
+            let stats = playerstats[1]
+            if (!stats.matches) return stats.matches = 'N/A'
+            if (!stats.wins) return stats.wins = 'N/A'
+            if (!stats.longestWinStreak) return stats.longestWinStreak = 'N/A'
+            if (!stats.currentWinStreak) return stats.currentWinStreak = 'N/A'
+            if (!stats.winRate) return stats.winRate = 'N/A'
             var shortPlayerInfoEmbed = new discord.MessageEmbed()
                 .setColor('#d76844')
                 .setAuthor(player.nickname, player.avatar, player.faceitUrl)
@@ -42,8 +48,15 @@ exports.run = async (bot, message) => {
                 if (resolve != 'undefined')
                     resolve([player, stats])
                 return [player, stats]
+            }).catch(function () {
+                if (message) {
+                    var cantGetStats = new discord.MessageEmbed()
+                        .setColor('#d76844')
+                        .setDescription('I can\'t get stats about this player. It is possible stats is outdated.')
+                    message.channel.send(cantGetStats)
+                }
             })
-        }).catch(function (error) {
+        }).catch(function () {
             if (message) {
                 var notPlayedCSGO = new discord.MessageEmbed()
                     .setColor('#d76844')
