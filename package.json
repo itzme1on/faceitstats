@@ -1,0 +1,21 @@
+{
+  "name": "faceit-stats",
+  "version": "1.0.0",
+  "description": "Discord Faceit statistic bot. Allows you to find out information about the player (if, of course, he is registered on FaceIT) just using one command!",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "itzme1on",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "faceit-js": "^0.0.3",
+    "faceit-js-api": "^0.3.3",
+    "i": "^0.3.6",
+    "npm": "^7.17.0",
+    "request": "^2.88.2",
+    "requests": "^0.3.0"
+  }
+}
