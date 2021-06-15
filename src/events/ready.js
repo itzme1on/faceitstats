@@ -6,7 +6,7 @@ module.exports = (bot) => {
     bot.user.setPresence({
         status: 'dnd',
         activity: {
-            name: `${config.status}`,
+            name: `${config.status} | ${config.prefix}help`,
             type: 'WATCHING'
         }
     })
