@@ -1,1 +1,1 @@
-"# faceit-stats" 
+# Faceit Stats
