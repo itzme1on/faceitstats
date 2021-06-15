@@ -18,6 +18,11 @@ exports.run = async (bot, message) => {
         }).then(function (playerstats) {
             let player = playerstats[0]
             let stats = playerstats[1]
+            if (!stats.matches) return stats.matches = 'N/A'
+            if (!stats.wins) return stats.wins = 'N/A'
+            if (!stats.longestWinStreak) return stats.longestWinStreak = 'N/A'
+            if (!stats.currentWinStreak) return stats.currentWinStreak = 'N/A'
+            if (!stats.winRate) return stats.winRate = 'N/A'
             var playerStatsEmbed = new discord.MessageEmbed()
                 .setColor('#d76844')
                 .setAuthor(player.nickname, player.avatar, player.faceitUrl)
