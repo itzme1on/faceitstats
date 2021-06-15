@@ -1,6 +1,6 @@
 # 📊 Faceit Stats
 ### Overview
-1. About Faceit Stats
+1. [About Faceit Stats](https://github.com/itzme1on/faceitstats#about-faceit-stats)
 2. Dependencies
 3. Starting the bot
 
