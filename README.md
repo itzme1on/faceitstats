@@ -1,6 +1,6 @@
 # 📊 Faceit Stats
 <a href="https://discord.com/api/oauth2/authorize?client_id=852565844529381397&permissions=2048&scope=bot"><img src="https://img.shields.io/static/v1?label=Invite%20Bot&message=Faceit%20Stats%232442&plastic&color=7289DA&logo=discord"></a>
-<a href="https://discord.gg/pfdcgJs7TE"><img src="https://img.shields.io/static/v1?label=Support%20Server&message=Join server&plastic&color=7289DA&logo=discord"></a>
+<a href="https://discord.gg/pfdcgJs7TE"><img src="https://img.shields.io/static/v1?label=Support%20Server&message=Join%20server&plastic&color=7289DA&logo=discord"></a>
 
 ### Overview
 1. [About Faceit Stats](https://github.com/itzme1on/faceitstats#about-faceit-stats)
