@@ -11,7 +11,7 @@ fs.readdir('./events/', (err, files) => {
         return console.error(err)
     files.forEach(file => {
         if (!file.endsWith('.js')) return
-        let event = require(`./src/events/${file}`)
+        let event = require(`./events/${file}`)
         let eventName = file.split('.')[0]
         log(`Event \"${eventName}\" successfully loaded!`, 'BOT', 'EventsLoader')
         bot.on(eventName, event.bind(null, bot))
@@ -24,7 +24,7 @@ fs.readdir('./commands/', (err, files) => {
         return console.error(err)
     files.forEach((file) => {
         if (!file.endsWith('.js')) return
-        let command = require(`./src/commands/${file}`)
+        let command = require(`./commands/${file}`)
         let commandName = file.split('.')[0]
         bot.commands.set(commandName, command)
         log(`Command \"${commandName}\" successfully loaded!`, 'BOT', 'CommandsLoader')
