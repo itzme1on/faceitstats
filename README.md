@@ -29,5 +29,5 @@ request | `v2.88.2` | [![NPM](https://nodei.co/npm/request.png)](https://nodei.c
 
 ## 🎫 Need help?
 <p align="left">
-  <a href="https://discord.gg/pfdcgJs7TE"><img src="https://discord.com/api/guilds/780511323715928155/widget.png?style=banner2" alt="Discord server"></a>
+  <a href="https://discord.gg/zZXGdBncNk"><img src="https://discord.com/api/guilds/780511323715928155/widget.png?style=banner2" alt="Discord server"></a>
 </p>
