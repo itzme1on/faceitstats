@@ -43,7 +43,7 @@ fs!stats \[nickname\] | Display detailed player statistic
 ## Dependencies
 Package | Version | Link
 ------------ | ------------- | -------------
-Node.js | `v14` | [\*click*](https://nodejs.org/en/)
+Node.js | `v12` | [\*click*](https://nodejs.org/en/)
 discord.js | `v12` | [![NPM](https://nodei.co/npm/discord.js.png)](https://nodei.co/npm/discord.js/)
 faceit-js | `v0.0.3` | [![NPM](https://nodei.co/npm/faceit-js.png)](https://nodei.co/npm/faceit-js/)
 faceit-js-api | `v0.3.3` | [![NPM](https://nodei.co/npm/faceit-js-api.png)](https://nodei.co/npm/faceit-js-api/)
