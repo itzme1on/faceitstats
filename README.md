@@ -6,7 +6,6 @@
 3. [Running](https://github.com/itzme1on/faceitstats#running)
 4. [Commands](https://github.com/itzme1on/faceitstats#commands)
 5. [Dependencies](https://github.com/itzme1on/faceitstats#dependencies)
-6. [Need help?](https://github.com/itzme1on/faceitstats#need-help)
 
 ## About Faceit Stats 
 Faceit Stats bot will help you find out brief and detailed statistics about player, such as the count of wins, winrate, skill level, average K/D, etc. Bot is very easy to use.
